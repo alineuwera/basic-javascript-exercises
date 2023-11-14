@@ -1,11 +1,7 @@
-function pattern(i,j){
-    for( let i=1; i<=4; i++){
-        let i = "";
-        for(let j=1; j<=5; j++){
-           i += "* ";
-            
-        }
-        console.log(i);
+ //10.
+function patt(rows,cols){
+    for( let i=0; i< rows ;i++){
+        console.log("* ".repeat(cols));
     }
 }
-pattern(5,4);
+patt(4,5);
