@@ -7,7 +7,7 @@ function countString(word){
         if( spltArray[i] === " "){
             a++;
         }
-        var total = spltArray.length - a;
+        var total = spltArray.length;
     }
     console.log(total);
 }

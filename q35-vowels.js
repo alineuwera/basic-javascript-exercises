@@ -2,7 +2,7 @@
 
 function countVowels(inputString) {
 
-    var vowels = ['a', 'e', 'i', 'o', 'u'];
+    var vowels = ['a', 'e', 'i', 'o', 'u','m'];
   
     var lowercaseString = inputString.toLowerCase();
   
@@ -17,3 +17,4 @@ function countVowels(inputString) {
     return vowelCount;
   }
   console.log(countVowels("aline uwera"));
+    
