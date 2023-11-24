@@ -13,5 +13,5 @@ function isPrime(number) {
     
     return  "is prime";
   }
- console.log(isPrime(8));
+ console.log(isPrime(23));
   

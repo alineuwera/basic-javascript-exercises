@@ -29,5 +29,5 @@ function showMenu() {
     }
   }
   showMenu();
-  console.log(performOperation('2'));
+  console.log(performOperation(10));
   

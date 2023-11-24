@@ -1,10 +1,8 @@
 //61.
 
 function containsOnlyDigits(str) {
-    return !isNaN(str) && !isNaN(parseFloat(str));
+    return !isNaN(str);
   }
-  
-  // Example usage:
   const string1 = "12345";
   const string2 = "abc123";
   
