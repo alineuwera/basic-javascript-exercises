@@ -8,7 +8,7 @@
 //    }
 //    console.log(sortArraAscending([5,3,4,1,2,8,0]));
 
-
+ 
 
    function isArraySorted(arr) {
     for (let i = 0; i < arr.length - 1; i++) {
